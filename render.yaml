@@ -1,0 +1,6 @@
+ services:
+  - type: web
+    name: mass-unblocker-scraper
+    env: node
+    plan: free
+    startCommand: npm install && node index.js
