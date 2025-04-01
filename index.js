@@ -10,7 +10,7 @@ var axios = require("axios");
 var wss = new WebSocket.Server({
     noServer: true
 });
-// Initialize Discord client
+// Discord client
 var client = new Client({
     intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages]
 });
@@ -32,7 +32,8 @@ var typeToUrl = {
     seraph: "seraph.imdb.gq",
     space: "space.is-cool.dev",
     artclass: "1.artclass.site",
-    astro: "astro.billigerhost.com"
+    astro: "astro.billigerhost.com",
+    red: "lupine.red"
 };
 var globalProxies = {};
 var filters = ["lightspeed", "securly", "none/other"];
